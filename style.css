@@ -1,0 +1,116 @@
+:root{
+    --green:#CEE9BE;
+    --shadow : 0 2px 2px rgb(0 0 0/0.5);
+}
+
+body{
+    font-size: 1.2rem;
+    font-family: 'Gabarito', cursive;
+    min-height: 4000px;
+}
+
+.hero ::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(img/hormat.jpg);
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+    filter:grayscale();
+    
+}
+
+.hero{
+    position: relative;
+    min-height: 100vh;
+
+}
+.hero h1{
+    font-family: 'Lobster', sans-serif;
+    font-size: 6rem;
+    color: white;
+}
+
+.hero h4{
+    font-size: 2rem;
+    color: white;
+}
+
+.hero p{
+    margin-top: 20px;
+    font-size: 1rem;
+    color: white;
+
+}
+
+.hero h1,.hero h4, .hero p{
+    text-shadow: var(--shadow);
+}
+
+.hero h5{
+    font-size: 2rem;
+}
+
+.hero a{
+    background-color: black;
+    color:white;
+
+}
+
+.hero a:hover{
+    background-color: #2882d6;
+    color: white;
+}
+
+.mynavbar .nav-link{
+    text-transform: uppercase;
+}
+
+.mynavbar .navbar-brand,
+.mynavbar .offcanvas-title{
+    font-family: 'Sacramento', cursive ;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+
+
+.about h2{
+font-family:  'Work Sans', sans-serif;
+font-size: 5rem;
+}
+
+.top{
+    margin-top: 70px;
+}
+.card{
+    width: 15rem;
+    margin-left: 50px;
+}
+
+/* media query */
+
+/* laptop */
+@media (max-width:992px){
+    html{
+        font-size: 75%;
+    }
+
+}
+/* tablet */
+@media (max-width:768px){
+    html{
+        font-size: 65%;
+    }
+}
+/* hp */
+@media (max-width:576px){
+    html{
+        font-size: 60%;
+    }
+}
