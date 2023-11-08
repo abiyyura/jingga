@@ -89,9 +89,51 @@ font-size: 5rem;
     margin-top: 70px;
 }
 .card{
-    width: 15rem;
-    margin-left: 50px;
+    width: 18rem;
+    
 }
+
+.atas{
+    position: relative;
+    overflow: hidden;
+}
+.atas .overlay{
+    background: #000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    padding: 1rem;
+}
+.atas:hover .overlay {
+    opacity: 1;
+    
+    transition: ease 0.5s;
+  }
+  .atas .overlay {
+    color: #fff;
+  }
+
+  .card p{
+    font-size: 1,2rem;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bold;
+  }
+
+  .atas:hover .card-img-top {
+    transform: scale(1.1);
+    
+  }
+
+  @keyframes over {
+
+  }
+  
+
+
 
 /* media query */
 
