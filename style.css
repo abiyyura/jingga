@@ -1,158 +1,324 @@
-:root{
-    --green:#CEE9BE;
-    --shadow : 0 2px 2px rgb(0 0 0/0.5);
+:root {
+  --green: #cee9be;
+  --shadow: 0 2px 2px rgb(0 0 0/0.5);
 }
 
-body{
-    font-size: 1.2rem;
-    font-family: 'Gabarito', cursive;
-    min-height: 4000px;
+/* WARNA BACKGROUND*/
+.bg-skay-50 {
+  background-color: #f0f9ff;
 }
 
-.hero ::before{
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url(img/hormat.jpg);
-    object-fit: cover;
-    background-size: cover;
-    background-position: center;
-    z-index: -1;
-    filter:grayscale();
-    
+.bg-skay-100 {
+  background-color: #cffafe;
 }
 
-.hero{
-    position: relative;
-    min-height: 100vh;
-
-}
-.hero h1{
-    font-family: 'Lobster', sans-serif;
-    font-size: 6rem;
-    color: white;
+.bg-skay-200 {
+  background-color: #bae6fd;
 }
 
-.hero h4{
-    font-size: 2rem;
-    color: white;
+.bg-skay-300 {
+  background-color: #7dd3fc;
 }
 
-.hero p{
-    margin-top: 20px;
-    font-size: 1rem;
-    color: white;
-
+.bg-skay-400 {
+  background-color: #38bdf8;
 }
 
-.hero h1,.hero h4, .hero p{
-    text-shadow: var(--shadow);
+.bg-skay-500 {
+  background-color: #0ea5e9;
 }
 
-.hero h5{
-    font-size: 2rem;
+.bg-skay-600 {
+  background-color: #0284c7;
 }
 
-.hero a{
-    background-color: black;
-    color:white;
-
+.bg-skay-700 {
+  background-color: #0369a1;
 }
 
-.hero a:hover{
-    background-color: #2882d6;
-    color: white;
+.bg-sky-800 {
+  background-color: #075985;
 }
 
-.mynavbar .nav-link{
-    text-transform: uppercase;
+.bg-sky-900 {
+  background-color: #0c4a6e;
+}
+
+.bg-sky-950 {
+  background-color: #082f49;
+}
+
+.bg-gray-50 {
+  background-color: #f9fafb;
+}
+
+.bg-gray-100 {
+  background-color: #f3f4f6;
+}
+
+bg-gray-200 {
+  background-color: #e5e7eb;
+}
+
+bg-gray-300 {
+  background-color: #d1d5db;
+}
+
+bg-gray-400 {
+  background-color: #9ca3af;
+}
+
+bg-gray-500 {
+  background-color: #6b7280;
+}
+
+bg-gray-600 {
+  background-color: #4b5563;
+}
+
+bg-gray-700 {
+  background-color: #374151;
+}
+
+bg-gray-800 {
+  background-color: #1f2937;
+}
+
+.bg-gray-900 {
+  background-color: #111827;
+}
+
+.bg-gray-950 {
+  background-color: #030712;
+}
+
+/* TEXT COLOR */
+.color-sky-50 {
+  color: #f0f9ff;
+}
+
+.color-sky-100 {
+  color: #cffafe;
+}
+
+.color-sky-200 {
+  color: #bae6fd;
+}
+
+.color-sky-300 {
+  color: #7dd3fc;
+}
+
+.color-sky-400 {
+  color: #38bdf8;
+}
+
+.color-sky-500 {
+  color: #0ea5e9;
+}
+
+.color-sky-600 {
+  color: #0284c7;
+}
+
+.color-sky-700 {
+  color: #0369a1;
+}
+
+.color-skay-800 {
+  color: #075985;
+}
+
+.color-skay-900 {
+  color: #0c4a6e;
+}
+
+.color-skay-950 {
+  color: #082f49;
+}
+
+.color-gray-50 {
+  color: #f9fafb;
+}
+
+.color-gray-100 {
+  color: #f3f4f6;
+}
+
+.color-gray-200 {
+  color: #e5e7eb;
+}
+
+.color-gray-300 {
+  color: #d1d5db;
+}
+
+.color-gray-400 {
+  color: #9ca3af;
+}
+
+.color-gray-500 {
+  color: #6b7280;
+}
+
+.color-gray-600 {
+  color: #4b5563;
+}
+
+.color-gray-700 {
+  color: #374151;
+}
+
+.color-gray-800 {
+  color: #1f2937;
+}
+
+.color-gray-900 {
+  color: #111827;
+}
+
+.color-gray-950 {
+  color: #030712;
+}
+
+body {
+  font-size: 1.2rem;
+  font-family: "Gabarito", cursive;
+}
+
+.hero ::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(img/hormat.jpg);
+  object-fit: cover;
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+  filter: grayscale();
+}
+
+.hero {
+  position: relative;
+  min-height: 100vh;
+}
+.hero h1 {
+  font-family: "Lobster", sans-serif;
+  font-size: 6rem;
+  color: white;
+}
+
+.hero h4 {
+  font-size: 2rem;
+  color: white;
+}
+
+.hero p {
+  margin-top: 20px;
+  font-size: 1rem;
+  color: white;
+}
+
+.hero h1,
+.hero h4,
+.hero p {
+  text-shadow: var(--shadow);
+}
+
+.hero h5 {
+  font-size: 2rem;
+}
+
+.hero a {
+  background-color: black;
+  color: white;
+}
+
+.hero a:hover {
+  background-color: #2882d6;
+  color: white;
+}
+
+.mynavbar .nav-link {
+  text-transform: uppercase;
 }
 
 .mynavbar .navbar-brand,
-.mynavbar .offcanvas-title{
-    font-family: 'Sacramento', cursive ;
-    font-size: 2rem;
-    font-weight: 700;
+.mynavbar .offcanvas-title {
+  font-family: "Sacramento", cursive;
+  font-size: 2rem;
+  font-weight: 700;
 }
 
-
-
-.about h2{
-font-family:  'Work Sans', sans-serif;
-font-size: 5rem;
+.about h2 {
+  font-family: "Work Sans", sans-serif;
+  font-size: 5rem;
 }
 
-.top{
-    margin-top: 70px;
+.top {
+  margin-top: 70px;
 }
-.card{
-    width: 18rem;
-    
+.card {
+  width: 18rem;
 }
 
-.atas{
-    position: relative;
-    overflow: hidden;
+.atas {
+  position: relative;
+  overflow: hidden;
 }
-.atas .overlay{
-    background: #000;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-    transition: .5s ease;
-    padding: 1rem;
+.atas .overlay {
+  background: #000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  padding: 1rem;
 }
 .atas:hover .overlay {
-    opacity: 1;
-    
-    transition: ease 0.5s;
-  }
-  .atas .overlay {
-    color: #fff;
-  }
+  opacity: 1;
 
-  .card p{
-    font-size: 1,2rem;
-    font-family: 'Work Sans', sans-serif;
-    font-weight: bold;
-  }
+  transition: ease 0.5s;
+}
+.atas .overlay {
+  color: #fff;
+}
 
-  .atas:hover .card-img-top {
-    transform: scale(1.1);
-    
-  }
+.card p {
+  font-size: 1, 2rem;
+  font-family: "Work Sans", sans-serif;
+  font-weight: bold;
+}
 
-  @keyframes over {
+.atas:hover .card-img-top {
+  transform: scale(1.1);
+}
 
-  }
-  
-
-
+@keyframes over {
+}
 
 /* media query */
 
 /* laptop */
-@media (max-width:992px){
-    html{
-        font-size: 75%;
-    }
-
+@media (max-width: 992px) {
+  html {
+    font-size: 75%;
+  }
 }
 /* tablet */
-@media (max-width:768px){
-    html{
-        font-size: 65%;
-    }
+@media (max-width: 768px) {
+  html {
+    font-size: 65%;
+  }
 }
 /* hp */
-@media (max-width:576px){
-    html{
-        font-size: 60%;
-    }
+@media (max-width: 576px) {
+  html {
+    font-size: 60%;
+  }
 }
