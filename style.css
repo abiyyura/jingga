@@ -4,35 +4,35 @@
 }
 
 /* WARNA BACKGROUND*/
-.bg-skay-50 {
+.bg-sky-50 {
   background-color: #f0f9ff;
 }
 
-.bg-skay-100 {
+.bg-sky-100 {
   background-color: #cffafe;
 }
 
-.bg-skay-200 {
+.bg-sky-200 {
   background-color: #bae6fd;
 }
 
-.bg-skay-300 {
+.bg-sky-300 {
   background-color: #7dd3fc;
 }
 
-.bg-skay-400 {
+.bg-sky-400 {
   background-color: #38bdf8;
 }
 
-.bg-skay-500 {
+.bg-sky-500 {
   background-color: #0ea5e9;
 }
 
-.bg-skay-600 {
+.bg-sky-600 {
   background-color: #0284c7;
 }
 
-.bg-skay-700 {
+.bg-sky-700 {
   background-color: #0369a1;
 }
 
@@ -56,31 +56,31 @@
   background-color: #f3f4f6;
 }
 
-bg-gray-200 {
+.bg-gray-200 {
   background-color: #e5e7eb;
 }
 
-bg-gray-300 {
+.bg-gray-300 {
   background-color: #d1d5db;
 }
 
-bg-gray-400 {
+.bg-gray-400 {
   background-color: #9ca3af;
 }
 
-bg-gray-500 {
+.bg-gray-500 {
   background-color: #6b7280;
 }
 
-bg-gray-600 {
+.bg-gray-600 {
   background-color: #4b5563;
 }
 
-bg-gray-700 {
+.bg-gray-700 {
   background-color: #374151;
 }
 
-bg-gray-800 {
+.bg-gray-800 {
   background-color: #1f2937;
 }
 
@@ -125,15 +125,15 @@ bg-gray-800 {
   color: #0369a1;
 }
 
-.color-skay-800 {
+.color-sky-800 {
   color: #075985;
 }
 
-.color-skay-900 {
+.color-sky-900 {
   color: #0c4a6e;
 }
 
-.color-skay-950 {
+.color-sky-950 {
   color: #082f49;
 }
 
