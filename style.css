@@ -393,15 +393,16 @@ body {
 }
 
 .bg-img-1 {
-  background-image: url("img/hormat.jpg"), linear-gradient(#004092, #020202, transparent);
+  background-image: url("img/1.jpg");
+  background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), #004092), url("img/1.jpg");
 }
 
 .bg-img-2 {
-  background-image: url("img/hormat.jpg"), linear-gradient(#004092, #020202, transparent);
+  background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), #004092), url("img/3.jpeg");
 }
 
 .bg-img-3 {
-  background-image: url("img/hormat.jpg"), linear-gradient(#004092, #020202, transparent);
+  background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), #004092), url("img/4.jpeg");
 }
 
 .carousel-image {
