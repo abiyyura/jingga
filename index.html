@@ -29,135 +29,251 @@
         <!-- FONT AWESOME -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+        <!-- BOSSTRAP WIDTH -->
+        <link rel="stylesheet" href="https://drive.google.com/uc?export=view&id=1yTLwNiCZhIdCWolQldwq4spHQkgZDqkG">
+
     </head>
     <body>
-    <!-- hero -->
-    <section id="hero" class="hero w-100 vh-100 p-3 mx-auto text-center d-flex justify-content-center align-items-center ">
-        <div>
-            <h4>Selamat Datang</h4>
-            <h1>SMKN1RONGGA</h1>
-            <p>Jl. Situ Gede, Cibedug, Kec. Rongga, Kabupaten Bandung Barat, Jawa Barat 40556</p>
-            <a href="#about" class="btn btn-lg mt-4">Selengkapnya</a>
-          </div>
+
+        <!-- hero -->
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item carousel-image bg-img-1 active">
+                    <div class="carousel-caption">
+                        <h5>SMKN 1 RONGGA</h5>
+                        <p>Some representative placeholder content for the second slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item carousel-image bg-img-2">
+                    <div class="carousel-caption">
+                        <h5>Second slide label</h5>
+                        <p>Some representative placeholder content for the second slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item carousel-image bg-img-3">
+                    <div class="carousel-caption">
+                        <h5>Second slide label</h5>
+                        <p>Some representative placeholder content for the second slide.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
-    </section>
-    <!-- tutup hero -->
+        <!-- tutup hero -->
 
-    <!-- navbar -->
-    <nav class="navbar navbar-expand-md bg-body-tertiary sticky-top mynavbar">
-        <div class="container">
-          <a class="navbar-brand" href="#hero">
-            <img src="img/logo smk Tanpa BC.png" alt="Logo" width="40" height="40" class="d-inline-block align-text-top">
-            Jingga
-          </a>
-          <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-            <div class="offcanvas-header">
-              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Jingga</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-            </div>
-            <div class="offcanvas-body mx-auto">
-                <div class="navbar-nav text-center">
-                    <a class="nav-link" href="#about">About</a>
-                    <a class="nav-link" href="#Story">Jurusan</a>
-                    <a class="nav-link" href="#eskul-smk">Eskul</a>
-                  </div>
-            </div>
-          </div>
-      </nav>
-      <!-- tutup navbar -->
-
-        <!-- KEPALA SEKOLAH -->
-        <section id="kepala-sekolah" class="kepala-sekolah h-100 bg-gray-50 py-5">
-            <div class="container h-100">
-                <div class="row h-100">
-                    <div class="col-12 judul text-center p-4">
-                        <h2 class="color-gray-700 judul-section">Pesan Dari Kepala Sekolah</h2>
-                    </div>
-                    <div class="h-100 col-lg-4 col-6">
-                        <div class="p-4 bg-sky-900 flex-grow-1">nama</div>
-                    </div>
-                    <div class=" h-100 col-lg-4 col-6 d-flex align-items-center bg-body-tertiary justify-content-center">
-                        <div class="p-4 bg-sky-900 flex-grow-1">nama</div>
-                    </div>
-                    <div class="h-100 col-lg-4 col-12 d-flex align-items-center bg-body-tertiary justify-content-center">KATA</div>
-                </div>
-            </div>
-        </section>
-        <!-- KEPALA SEKOLAH -->
-
-        <!-- ABOUT SMK -->
-        <section class="about-smk py-4 vh-100">
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-md bg-body-tertiary sticky-top mynavbar">
             <div class="container">
-                <div class="col-lg-6">
-                    <h2 class="judul-section">
-                        <small>Tentang</small><br>
-                        SMKN 1 Rongga
-                    </h2>
-                    <p class="paragrafh">
-                        Kami selalu percaya bahwa teknologi bisa mendorong masyarakat untuk meraih masa depan yang lebih baik, terutama bila teknologi yang dikembangkan dapat bermanfaat bagi semua lapisan masyarakat.
-                    </p>
-                    <p class="paragrafh">
-                        Cara kami memandang kehidupan didasari oleh prinsip 'Gotong Royong', karena kami percaya sesuatu yang diupayakan dan dikerjakan bersama-sama akan membuahkan hasil yang lebih bermakna, tidak hanya bagi diri sendiri tetapi juga bagi orang banyak.
-                    </p>
+                <a class="navbar-brand" href="#hero">
+                    <img src="img/logo smk Tanpa BC.png" alt="Logo" width="40" height="40" class="d-inline-block align-text-top">
+                    Jingga
+                </a>
+                <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Jingga</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                <div class="offcanvas-body ms-auto">
+                    <div class="navbar-nav text-center">
+                        <a class="nav-link" href="#about-smk">Tentang Kami</a>
+                        <a class="nav-link" href="#jurusan">Jurusan</a>
+                        <a class="nav-link" href="#eskul-smk">Eskul</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- tutup navbar -->
+
+        <!-- KEPALA SEKOLAH -->
+        <section class="about-smk py-4" >
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 d-flex align-items-center justify-content-center p-lg-0 p-2">
+                        <img src="img/ks-smk.png" alt="" class="w-md-75 w-50">
+                    </div>
+                    <div class="col-lg-6  p-lg-0 p-2 px-4">
+                        <p class="paragrafh">
+                            Sekolah bukan hanya tempat untuk belajar, tetapi juga sebagai wadah tempat kita tumbuh bersama, menjalin persahabatan, dan mengembangkan potensi diri. Kami, sebagai komunitas pendidikan, berkomitmen untuk menciptakan lingkungan yang mendukung dan memotivasi setiap siswa untuk meraih impian dan tujuan mereka.
+                        </p>
+                        <p class="paragrafh">
+                            Saya yakin, bersama-sama, kita dapat menciptakan suasana yang positif dan inklusif di sekolah ini. Mari kita saling mendukung, belajar satu sama lain, dan tumbuh bersama sebagai individu yang tangguh dan berdaya saing tinggi.
+                        </p>
+                        <h2 class="h3-judul-section">
+                            <small class="color-sky-700">Kepala SMKN 1 Rongga</small><br>
+                            KANKAN SUKANDA, S.Pd.I, M.Pd
+                        </h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- KEPALA SEKOLAH -->
+
+        <!-- ABOUT SMK -->
+        <section class="about-smk py-4 bg-gray-50" id="about-smk">
+            <div class="container py-4">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <h2 class="judul-section">
+                            <small class="color-sky-700">Tentang</small><br>
+                            SMKN 1 Rongga
+                        </h2>
+                        <p class="paragrafh">
+                            SMKN 1 Rongga merupakan sekolah Kejuruan yang fokus terhadap pengembangan Sumber Daya Manusia di bidang pertanian dan Teknologi serta pengembangan untuk menjadi Insan yang Mulia dengan berakhlak dan menjungjung tinggi nilai Pancasila.
+                        </p>
+                        <p class="paragrafh">
+                            Cara kami memandang kehidupan didasari oleh prinsip 'Gotong Royong', karena kami percaya sesuatu yang diupayakan dan dikerjakan bersama-sama akan membuahkan hasil yang lebih bermakna, tidak hanya bagi diri sendiri tetapi juga bagi orang banyak.
+                        </p>
+                        
+                        <div class="row ">
+                            <div class="col-3 gap-2">
+                                <div>
+                                    <hr class="color-sky-700 border-3">
+                                    <h2 class="color-sky-700 num" data-val="540">000</h2>
+                                    <p>Siswa</p>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div>
+                                    <hr class="color-sky-700 border-3">
+                                    <h2 class="color-sky-700 num" data-val="54">00</h2>
+                                    <p>Guru</p>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div>
+                                    <hr class="color-sky-700 border-3">
+                                    <h2 class="color-sky-700 num" data-val="21">00</h2>
+                                    <p>Rombel Kelas</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 py-4align-items-center ju">
+                        <div class="row d-flex align-items-center flex-wrap h-75 justify-content-center">
+                            <div class="col-6">
+                                <div class="card card-about w-100 border-0 shadow">
+                                    <img src="img/hormat.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="card card-about w-100 border-0 shadow">
+                                    <img src="img/hormat.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="card card-about w-100 border-0 shadow">
+                                    <img src="img/hormat.JPG" alt="">
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="card card-about w-100 border-0 shadow">
+                                    <img src="img/hormat.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
         <!-- ABOUT SMK -->
-      <!-- about -->
-      <section id="about" class="about">
-        <div class="container">
-          <div class="row">
-            <div class="col">
-              <div class="text-center top"  style="padding-top: 50px;">
-                <h3>Selamat Datang</h3>
-                <h2>SMKN1RONGGA</h2>
-               <p>Sekolah Menengah Negeri 1 Rongga Kabupaten Bandung Barat,memiliki tiga jurusan yaitu Rekayasa Perangkat Lunak(RPL),
-                Agribisnis Tanaman Pangan dan Hortikultura(ATPH) dan Teknik dan Bisnis Sepeda Motor(TBSM)
-               </p>
-              </div>
-            </div>
-          </div>
 
-          <div class="container mt-5 text-center ">
-            <div class="row">
-              <div class="col-md-4">
-                <div class="card rounded-card atas">
-                  <img src="img/LOGO RPL.png" class="card-img-top" alt="Gambar 1">
-                  <div class="card-body justify-content-center">
-                    <h5 class="card-title text-center">Rekayasa Perangkat Lunak(RPL)</h5>
-                    <div class="overlay">
-                         <p>Adalah jurusan / bidang keahlian yang mempelajari bagaimana cara-cara pengembangan perangkat lunak .</p>
+        <!-- about -->
+        <section id="jurusan" class="py-4">
+            <div class="container">
+                <div class="row py-4">
+                    <div class="col-lg-12 text-center">
+                        <h2 class="judul-section">
+                            <small class="color-sky-700">Tentang</small><br>
+                            SMKN 1 Rongga
+                        </h2>
+                        <p>
+                            Sekolah Menengah Negeri 1 Rongga Kabupaten Bandung Barat, memiliki tiga jurusan yaitu:
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 p-4 d-flex justify-content-center align-items-center">
+                        <div class="card rounded-card atas border-0">
+                            <img src="img/atph.JPG" class="card-img-top" alt="Gambar 1">
+                            <div class="overlay">
+                                <div class="d-flex flex-column h-100 align-items-center justify-content-center">
+                                    <div class="w-50">
+                                        <img src="img/LOGO ATPH.png" alt="" srcset="" class="w-100">
+                                    </div>
+                                    <div class="text-center p-2 overlay-body">
+                                        <h3 class="overlay-judul">
+                                            <small class="color-gray-50">Agribisnis Tanaman Pangan & Hortikultura</small><br>
+                                            ATPH
+                                        </h3>
+
+                                        <p>
+                                            merupakan Bidangan keahlian yang bergerak dalam bidang tanaman, baik tanaman pangan, Hortikultura, perkebunan, maupun tanaman hias.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="card rounded-card atas">
-                  <img src="img/LOGO TBSM.png" class="card-img-top" alt="Gambar 2">
-                  <div class="card-body">
-                    <h5 class="card-title  text-center">Teknik dan Bisnis Sepeda Motor(TBSM)
-                    </h5>
-                    <div class="overlay">
-                    <p>Adalah bidang kompetensi teknologi yang membekali siswa dengan Teknik dan Bisnis pada Sepeda Motor.</p>
-                  </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="card  rounded-card atas">
-                  <img src="img/LOGO ATPH.png" class="card-img-top" alt="Gambar 3">
-                  <div class="card-body">
-                    <h5 class="card-title  text-center">Agribisnis Tanaman Pangan dan Hortikultura(ATPH)</h5>
-                    <div class="overlay">
-                      
-                    <p>ATPH merupakan kependekan dari Agribisnis Tanaman Pangan & Hortikultura, Agribisnis Tanaman Perkebunan.</p>
-                  </div>
-                  </div>
-                </div>
-              </div>
+                    </div>
+                    <div class="col-lg-4 d-flex justify-content-center align-items-center">
+                        <div class="card rounded-card atas border-0">
+                            <img src="img/rpl.jpg" class="card-img-top" alt="Gambar 1">
+                            <div class="overlay">
+                                <div class="overlay">
+                                    <div class="d-flex flex-column h-100 align-items-center justify-content-center">
+                                        <div class="w-50">
+                                            <img src="img/LOGO RPL.png" alt="" srcset="" class="w-100">
+                                        </div>
+                                        <div class="text-center p-2 overlay-body">
+                                            <h3 class="overlay-judul">
+                                                <small class="color-gray-50">Teknik Bisnis Sepeda Motor</small><br>
+                                                RPL
+                                            </h3>
+    
+                                            <p>
+                                                merupakan Bidangan keahlian yang bergerak dalam bidang tanaman, baik tanaman pangan, Hortikultura, perkebunan, maupun tanaman hias.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 d-flex justify-content-center align-items-center">
+                        <div class="card rounded-card atas border-0">
+                            <img src="img/tbsm.JPG" class="card-img-top" alt="Gambar 1">
+                            <div class="overlay">
+                                <div class="overlay">
+                                    <div class="d-flex flex-column h-100 align-items-center justify-content-center">
+                                        <div class="w-50">
+                                            <img src="img/LOGO ATPH.png" alt="" srcset="" class="w-100">
+                                        </div>
+                                        <div class="text-center p-2 overlay-body">
+                                            <h3 class="overlay-judul">
+                                                <small class="color-gray-50">Agribisnis Tanaman Pangan & Hortikultura</small><br>
+                                                ATPH
+                                            </h3>
+    
+                                            <p>
+                                                merupakan Bidangan keahlian yang bergerak dalam bidang tanaman, baik tanaman pangan, Hortikultura, perkebunan, maupun tanaman hias.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+              
+
             
             </div>
           </div>
@@ -169,110 +285,71 @@
       <!-- tutup about-->
 
       <!-- ESKUL SMK -->
-        <section id="eskul-smk" class="eskul-smk py-4 vh-100 bg-sky-700">
+        <section id="eskul-smk" class="eskul-smk py-4 bg-gray-50">
             <div class="container my-5">
                 <div class="row">
-                    <div class="col-lg-6 d-flex justify-content-center align-items-center">
-                        <input type="radio" name="slider" class="d-none" id="s1" checked>
-                        <input type="radio" name="slider" class="d-none" id="s2">
-                        <input type="radio" name="slider" class="d-none" id="s3">
-                        <input type="radio" name="slider" class="d-none" id="s4">
-                        <input type="radio" name="slider" class="d-none" id="s5">
-                        <div class="cards">
-                            <label for="s1" id="slide1">
-                                <div class="card p-1">
-                                    <div class="image">
+                    <div class="col-lg-6 order-2 d-none d-lg-block">
+                        <div class="d-flex justify-content-center align-items-center h-100">
+                            <input type="radio" name="slider" class="d-none" id="s1" checked>
+                            <input type="radio" name="slider" class="d-none" id="s2">
+                            <input type="radio" name="slider" class="d-none" id="s3">
+                            <input type="radio" name="slider" class="d-none" id="s4">
+                            <input type="radio" name="slider" class="d-none" id="s5">
+                            <div class="cards hidden">
+                            <label for="s1" id="slide1" class="label hidden">
+                                <div class="cardo p-1">
+                                    <div class="image p-2">
                                         <img src="https://source.unsplash.com/random" alt="">
-                                        <div class="dots">
-                                            <div class="dot1"></div>
-                                            <div class="dot2"></div>
-                                            <div class="dot3"></div>
-                                        </div>
                                     </div>
-                                    <div class="infos">
-                                        <p>Pramuka</p>
-                                    </div>
+                                   
                                 </div>
                             </label>
-                            <label for="s2" id="slide2">
-                                <div class="card">
-                                <div class="image">
-                                    <img src="img/Free run flyknit.jpg" alt="">
-                                    <div class="dots">
-                                        <div class="dot1"></div>
-                                        <div class="dot2"></div>
-                                        <div class="dot3"></div>
+                            <label for="s2" id="slide2" class="label hidden">
+                                <div class="cardo">
+                                    <div class="image p-2">
+                                        <img src="https://source.unsplash.com/random" alt="">
                                     </div>
-                                </div>
-                                <div class="infos">
-                                    <span class="name">Free Run Flyknit</span>
                                     
                                 </div>
+                            </label>
+                            <label for="s3" id="slide3" class="label hidden">
+                                <div class="cardo">
+                                    <div class="image p-2">
+                                        <img src="https://source.unsplash.com/random" alt="">
+                                    </div>
+                                   
+                                </div>
+                            </label>
+                            <label for="s4" id="slide4" class="label hidden">
+                                <div class="cardo">
+                                <div class="image p-2">
+                                    <img src="https://source.unsplash.com/random" alt="">
+                                </div>
+                               
                                 
                                 </div>
                             </label>
-                            <label for="s3" id="slide3">
-                                <div class="card">
-                                <div class="image">
-                                    <img src="img/Black Toe Union.jpg" alt="">
-                                    <div class="dots">
-                                    <div class="dot1"></div>
-                                    <div class="dot2"></div>
-                                    <div class="dot3"></div>
+                            <label for="s5" id="slide5" class="hidden">
+                                <div class="cardo">
+                                    <div class="image p-2">
+                                        <img src="https://source.unsplash.com/random" alt="">
                                     </div>
-                                </div>
-                                <div class="infos">
-                                    <span class="name">Black Toe Union</span>
-                                </div>
-                                
-                                </div>
-                            </label>
-                            <label for="s4" id="slide4">
-                                <div class="card">
-                                <div class="image">
-                                    <img src="img/Retro High Og.jpg" alt="">
-                                    <div class="dots">
-                                    <div class="dot1"></div>
-                                    <div class="dot2"></div>
-                                    <div class="dot3"></div>
-                                    </div>
-                                </div>
-                                <div class="infos">
-                                    <span class="name">Retro High Og</span>
-                                
-                                </div>
-                                
-                                </div>
-                            </label>
-                            <label for="s5" id="slide5">
-                                <div class="card">
-                                <div class="image">
-                                    <img src="img/Off-White x Air Jordan.jpg" alt="">
-                                    <div class="dots">
-                                    <div class="dot1"></div>
-                                    <div class="dot2"></div>
-                                    <div class="dot3"></div>
-                                    </div>
-                                </div>
-                                <div class="infos">
-                                    <span class="name">Off-White Air Jordan</span>
                                     
-                                </div>
-                                
                                 </div>
                             </label>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    </div>
+                    <div class="col-lg-6 order-1">
                         <h2 class="judul-section">
-                            <small>Tentang</small><br>
+                            <small>Ekstrakulikuler</small><br>
                             SMKN 1 Rongga
                         </h2>
                         <p class="paragrafh">
-                            Kami selalu percaya bahwa teknologi bisa mendorong masyarakat untuk meraih masa depan yang lebih baik, terutama bila teknologi yang dikembangkan dapat bermanfaat bagi semua lapisan masyarakat.
+                            Ekskul adalah kegiatan tambahan yang dilakukan di luar jam pelajaran yang dilakukan baik di sekolah atau di luar sekolah dengan tujuan untuk mendapatkan tambahan pengetahuan, keterampilan dan wawasan serta membantu membentuk karakter peserta didik sesuai dengan minat dan bakat masing-masing.
                         </p>
                         <p class="paragrafh">
-                            Cara kami memandang kehidupan didasari oleh prinsip 'Gotong Royong', karena kami percaya sesuatu yang diupayakan dan dikerjakan bersama-sama akan membuahkan hasil yang lebih bermakna, tidak hanya bagi diri sendiri tetapi juga bagi orang banyak.
+                            Di SMKN 1 Rongga sendiri terdapat beberapa ekskul, baik krida maupun olahbakat, Diantaranya Pramuka, Palang Merah Remaja (PMR), Pasukan Pengibar Bendera (PASKIBRA), Putsal, Volly, Karawitan dan masih banyak lagi.
                         </p>
                     </div>
                 </div>
@@ -311,7 +388,8 @@
       
 
 
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-  </body>
+        <!-- INDEX.JS -->
+        <script src="index.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    </body>
 </html>
